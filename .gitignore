@@ -86,3 +86,4 @@
 !*.xmp
 
 Arithmetic_circuit/Arithmetic_circuit.cache/*
+Arithmetic_circuit/Arithmetic_circuit.runs/*

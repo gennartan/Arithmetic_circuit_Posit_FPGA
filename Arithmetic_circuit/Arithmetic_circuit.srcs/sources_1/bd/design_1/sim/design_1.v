@@ -1,7 +1,7 @@
 //Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2019.1 (lin64) Build 2552052 Fri May 24 14:47:09 MDT 2019
-//Date        : Tue Apr 21 13:16:55 2020
+//Date        : Tue Apr 21 20:20:41 2020
 //Host        : gennart-G3-3579 running 64-bit Ubuntu 16.04.6 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -70,7 +70,7 @@ module design_1
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_PORB" *) inout FIXED_IO_ps_porb;
   (* X_INTERFACE_INFO = "xilinx.com:display_processing_system7:fixedio:1.0 FIXED_IO PS_SRSTB" *) inout FIXED_IO_ps_srstb;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK0 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK0, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK0, FREQ_HZ 100000000, INSERT_VIP 0, PHASE 0.000" *) output clk0;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK1 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK1, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, FREQ_HZ 20000000, INSERT_VIP 0, PHASE 0.000" *) output clk1;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK1 CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK1, CLK_DOMAIN design_1_processing_system7_0_0_FCLK_CLK1, FREQ_HZ 50000000, INSERT_VIP 0, PHASE 0.000" *) output clk1;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RST0 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RST0, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) output rst0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RST1 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RST1, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) output rst1;
 

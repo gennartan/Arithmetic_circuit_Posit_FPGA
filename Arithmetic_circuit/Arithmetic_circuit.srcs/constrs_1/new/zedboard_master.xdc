@@ -233,14 +233,14 @@ set_property PACKAGE_PIN T18 [get_ports BTNU]
 ## ----------------------------------------------------------------------------
 ## User DIP Switches - Bank 35
 ## ----------------------------------------------------------------------------
-set_property PACKAGE_PIN F22 [get_ports {SW0}];  # "SW0"
-set_property PACKAGE_PIN G22 [get_ports {SW1}];  # "SW1"
-set_property PACKAGE_PIN H22 [get_ports {SW2}];  # "SW2"
-set_property PACKAGE_PIN F21 [get_ports {SW3}];  # "SW3"
-set_property PACKAGE_PIN H19 [get_ports {SW4}];  # "SW4"
-set_property PACKAGE_PIN H18 [get_ports {SW5}];  # "SW5"
-set_property PACKAGE_PIN H17 [get_ports {SW6}];  # "SW6"
-set_property PACKAGE_PIN M15 [get_ports {SW7}];  # "SW7"
+set_property PACKAGE_PIN F22 [get_ports SW0]
+set_property PACKAGE_PIN G22 [get_ports SW1]
+set_property PACKAGE_PIN H22 [get_ports SW2]
+set_property PACKAGE_PIN F21 [get_ports SW3]
+set_property PACKAGE_PIN H19 [get_ports SW4]
+set_property PACKAGE_PIN H18 [get_ports SW5]
+set_property PACKAGE_PIN H17 [get_ports SW6]
+set_property PACKAGE_PIN M15 [get_ports SW7]
 
 ## ----------------------------------------------------------------------------
 ## XADC AD Channels - Bank 35
@@ -270,33 +270,33 @@ set_property PACKAGE_PIN M15 [get_ports {SW7}];  # "SW7"
 #set_property PACKAGE_PIN M19 [get_ports {FMC_LA00_CC_P}];  # "FMC-LA00_CC_P"
 #set_property PACKAGE_PIN N20 [get_ports {FMC_LA01_CC_N}];  # "FMC-LA01_CC_N"
 #set_property PACKAGE_PIN N19 [get_ports {FMC_LA01_CC_P}];  # "FMC-LA01_CC_P" - corrected 6/6/16 GE
-set_property PACKAGE_PIN P18 [get_ports FMC_LA02_N]
-set_property PACKAGE_PIN P17 [get_ports FMC_LA02_P]
-set_property PACKAGE_PIN P22 [get_ports FMC_LA03_N]
-set_property PACKAGE_PIN N22 [get_ports FMC_LA03_P]
-set_property PACKAGE_PIN M22 [get_ports FMC_LA04_N]
-set_property PACKAGE_PIN M21 [get_ports FMC_LA04_P]
-set_property PACKAGE_PIN K18 [get_ports FMC_LA05_N]
-set_property PACKAGE_PIN J18 [get_ports FMC_LA05_P]
-set_property PACKAGE_PIN L22 [get_ports FMC_LA06_N]
-set_property PACKAGE_PIN L21 [get_ports FMC_LA06_P]
-set_property PACKAGE_PIN T17 [get_ports FMC_LA07_N]
-set_property PACKAGE_PIN T16 [get_ports FMC_LA07_P]
-set_property PACKAGE_PIN J22 [get_ports FMC_LA08_N]
-set_property PACKAGE_PIN J21 [get_ports FMC_LA08_P]
-set_property PACKAGE_PIN R21 [get_ports FMC_LA09_N]
-set_property PACKAGE_PIN R20 [get_ports FMC_LA09_P]
-set_property PACKAGE_PIN T19 [get_ports FMC_LA10_N]
-set_property PACKAGE_PIN R19 [get_ports FMC_LA10_P]
-set_property PACKAGE_PIN N18 [get_ports FMC_LA11_N]
-set_property PACKAGE_PIN N17 [get_ports FMC_LA11_P]
-set_property PACKAGE_PIN P21 [get_ports FMC_LA12_N]
-set_property PACKAGE_PIN P20 [get_ports FMC_LA12_P]
-set_property PACKAGE_PIN M17 [get_ports FMC_LA13_N]
-set_property PACKAGE_PIN L17 [get_ports FMC_LA13_P]
-set_property PACKAGE_PIN K20 [get_ports FMC_LA14_N]
-set_property PACKAGE_PIN K19 [get_ports FMC_LA14_P]
-set_property PACKAGE_PIN J16 [get_ports FMC_LA15_P]
+#set_property PACKAGE_PIN P18 [get_ports FMC_LA02_N]
+#set_property PACKAGE_PIN P17 [get_ports FMC_LA02_P]
+#set_property PACKAGE_PIN P22 [get_ports FMC_LA03_N]
+#set_property PACKAGE_PIN N22 [get_ports FMC_LA03_P]
+#set_property PACKAGE_PIN M22 [get_ports FMC_LA04_N]
+#set_property PACKAGE_PIN M21 [get_ports FMC_LA04_P]
+#set_property PACKAGE_PIN K18 [get_ports FMC_LA05_N]
+#set_property PACKAGE_PIN J18 [get_ports FMC_LA05_P]
+#set_property PACKAGE_PIN L22 [get_ports FMC_LA06_N]
+#set_property PACKAGE_PIN L21 [get_ports FMC_LA06_P]
+#set_property PACKAGE_PIN T17 [get_ports FMC_LA07_N]
+#set_property PACKAGE_PIN T16 [get_ports FMC_LA07_P]
+#set_property PACKAGE_PIN J22 [get_ports FMC_LA08_N]
+#set_property PACKAGE_PIN J21 [get_ports FMC_LA08_P]
+#set_property PACKAGE_PIN R21 [get_ports FMC_LA09_N]
+#set_property PACKAGE_PIN R20 [get_ports FMC_LA09_P]
+#set_property PACKAGE_PIN T19 [get_ports FMC_LA10_N]
+#set_property PACKAGE_PIN R19 [get_ports FMC_LA10_P]
+#set_property PACKAGE_PIN N18 [get_ports FMC_LA11_N]
+#set_property PACKAGE_PIN N17 [get_ports FMC_LA11_P]
+#set_property PACKAGE_PIN P21 [get_ports FMC_LA12_N]
+#set_property PACKAGE_PIN P20 [get_ports FMC_LA12_P]
+#set_property PACKAGE_PIN M17 [get_ports FMC_LA13_N]
+#set_property PACKAGE_PIN L17 [get_ports FMC_LA13_P]
+#set_property PACKAGE_PIN K20 [get_ports FMC_LA14_N]
+#set_property PACKAGE_PIN K19 [get_ports FMC_LA14_P]
+#set_property PACKAGE_PIN J16 [get_ports FMC_LA15_P]
 ## ----------------------------------------------------------------------------
 # FMC Expansion Connector - Bank 35
 ## ----------------------------------------------------------------------------
@@ -364,7 +364,7 @@ set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 34]]
 # Set the bank voltage for IO Bank 35 to 1.8V by default.
 # set_property IOSTANDARD LVCMOS33 [get_ports -of_objects [get_iobanks 35]];
 # set_property IOSTANDARD LVCMOS25 [get_ports -of_objects [get_iobanks 35]];
-set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 35]];
+set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 35]]
 
 # Note that the bank voltage for IO Bank 13 is fixed to 3.3V on ZedBoard.
 #set_property IOSTANDARD LVCMOS33 [get_ports -of_objects [get_iobanks 13]];
@@ -373,3 +373,4 @@ set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 35]];
 
 #set_false_path -from [get_pins {MT/TM/rx_data_reg/r_reg[3]/C}] -to [get_pins {CDSO/data_out_reg[3]_rep__1/D}]
 #set_false_path -from [get_pins {MT/TM/rx_data_reg/r_reg[*]/C}] -to [get_pins {CDSO/data_out_reg[*]_rep__1/D}]
+
