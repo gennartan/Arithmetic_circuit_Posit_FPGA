@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="input_module_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="input_module_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="459352943fs"></ZoomEndTime>
+      <Cursor1Time time="411000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="170"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="76" />
+   <wvobject type="logic" fp_name="/input_module_tb/clk_slow">
+      <obj_property name="ElementShortName">clk_slow</obj_property>
+      <obj_property name="ObjectShortName">clk_slow</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/clk_fast">
+      <obj_property name="ElementShortName">clk_fast</obj_property>
+      <obj_property name="ObjectShortName">clk_fast</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/WTF_data">
+      <obj_property name="ElementShortName">WTF_data[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WTF_data[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/input_data">
+      <obj_property name="ElementShortName">input_data[99:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">input_data[99:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/output_data">
+      <obj_property name="ElementShortName">output_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">output_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/j">
+      <obj_property name="ElementShortName">j[31:0]</obj_property>
+      <obj_property name="ObjectShortName">j[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/i_output">
+      <obj_property name="ElementShortName">i_output[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i_output[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/idata_data">
+      <obj_property name="ElementShortName">idata_data</obj_property>
+      <obj_property name="ObjectShortName">idata_data</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/odata_data">
+      <obj_property name="ElementShortName">odata_data[3:0]</obj_property>
+      <obj_property name="ObjectShortName">odata_data[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/idata_ready">
+      <obj_property name="ElementShortName">idata_ready</obj_property>
+      <obj_property name="ObjectShortName">idata_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/idata_valid">
+      <obj_property name="ElementShortName">idata_valid</obj_property>
+      <obj_property name="ObjectShortName">idata_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/idata_enbl">
+      <obj_property name="ElementShortName">idata_enbl</obj_property>
+      <obj_property name="ObjectShortName">idata_enbl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/odata_ready">
+      <obj_property name="ElementShortName">odata_ready</obj_property>
+      <obj_property name="ObjectShortName">odata_ready</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/odata_valid">
+      <obj_property name="ElementShortName">odata_valid</obj_property>
+      <obj_property name="ObjectShortName">odata_valid</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/odata_enbl">
+      <obj_property name="ElementShortName">odata_enbl</obj_property>
+      <obj_property name="ObjectShortName">odata_enbl</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/idata_rstn">
+      <obj_property name="ElementShortName">idata_rstn</obj_property>
+      <obj_property name="ObjectShortName">idata_rstn</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/odata_rstn">
+      <obj_property name="ElementShortName">odata_rstn</obj_property>
+      <obj_property name="ObjectShortName">odata_rstn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/period_long">
+      <obj_property name="ElementShortName">period_long[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_long[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/period_short">
+      <obj_property name="ElementShortName">period_short[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period_short[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_clk_i">
+      <obj_property name="ElementShortName">src_clk_i</obj_property>
+      <obj_property name="ObjectShortName">src_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_rst_n_i">
+      <obj_property name="ElementShortName">src_rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">src_rst_n_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_valid_i">
+      <obj_property name="ElementShortName">src_valid_i</obj_property>
+      <obj_property name="ObjectShortName">src_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_ready_o">
+      <obj_property name="ElementShortName">src_ready_o</obj_property>
+      <obj_property name="ObjectShortName">src_ready_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_input_0_i">
+      <obj_property name="ElementShortName">src_input_0_i</obj_property>
+      <obj_property name="ObjectShortName">src_input_0_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_clk_i">
+      <obj_property name="ElementShortName">dst_clk_i</obj_property>
+      <obj_property name="ObjectShortName">dst_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_rst_n_i">
+      <obj_property name="ElementShortName">dst_rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">dst_rst_n_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_valid_o">
+      <obj_property name="ElementShortName">dst_valid_o</obj_property>
+      <obj_property name="ObjectShortName">dst_valid_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_ready_i">
+      <obj_property name="ElementShortName">dst_ready_i</obj_property>
+      <obj_property name="ObjectShortName">dst_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/dst_data_o">
+      <obj_property name="ElementShortName">dst_data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_data_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_input_0">
+      <obj_property name="ElementShortName">pip_input_0</obj_property>
+      <obj_property name="ObjectShortName">pip_input_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/pip_tmp">
+      <obj_property name="ElementShortName">pip_tmp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pip_tmp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/pip_valid">
+      <obj_property name="ElementShortName">pip_valid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pip_valid[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_enbl_in">
+      <obj_property name="ElementShortName">pip_enbl_in</obj_property>
+      <obj_property name="ObjectShortName">pip_enbl_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_enbl_out">
+      <obj_property name="ElementShortName">pip_enbl_out</obj_property>
+      <obj_property name="ObjectShortName">pip_enbl_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_valid_in">
+      <obj_property name="ElementShortName">pip_valid_in</obj_property>
+      <obj_property name="ObjectShortName">pip_valid_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_valid_out">
+      <obj_property name="ElementShortName">pip_valid_out</obj_property>
+      <obj_property name="ObjectShortName">pip_valid_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_ready_in">
+      <obj_property name="ElementShortName">pip_ready_in</obj_property>
+      <obj_property name="ObjectShortName">pip_ready_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_ready_out">
+      <obj_property name="ElementShortName">pip_ready_out</obj_property>
+      <obj_property name="ObjectShortName">pip_ready_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/cdc_data_i">
+      <obj_property name="ElementShortName">cdc_data_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cdc_data_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_valid_i">
+      <obj_property name="ElementShortName">cdc_valid_i</obj_property>
+      <obj_property name="ObjectShortName">cdc_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_ready_o">
+      <obj_property name="ElementShortName">cdc_ready_o</obj_property>
+      <obj_property name="ObjectShortName">cdc_ready_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_valid_o">
+      <obj_property name="ElementShortName">cdc_valid_o</obj_property>
+      <obj_property name="ObjectShortName">cdc_valid_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_ready_i">
+      <obj_property name="ElementShortName">cdc_ready_i</obj_property>
+      <obj_property name="ObjectShortName">cdc_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/cdc_data_o">
+      <obj_property name="ElementShortName">cdc_data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cdc_data_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_clk_i">
+      <obj_property name="ElementShortName">src_clk_i</obj_property>
+      <obj_property name="ObjectShortName">src_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_rst_n_i">
+      <obj_property name="ElementShortName">src_rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">src_rst_n_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_valid_i">
+      <obj_property name="ElementShortName">src_valid_i</obj_property>
+      <obj_property name="ObjectShortName">src_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_ready_o">
+      <obj_property name="ElementShortName">src_ready_o</obj_property>
+      <obj_property name="ObjectShortName">src_ready_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/src_input_0_i">
+      <obj_property name="ElementShortName">src_input_0_i</obj_property>
+      <obj_property name="ObjectShortName">src_input_0_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_clk_i">
+      <obj_property name="ElementShortName">dst_clk_i</obj_property>
+      <obj_property name="ObjectShortName">dst_clk_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_rst_n_i">
+      <obj_property name="ElementShortName">dst_rst_n_i</obj_property>
+      <obj_property name="ObjectShortName">dst_rst_n_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_valid_o">
+      <obj_property name="ElementShortName">dst_valid_o</obj_property>
+      <obj_property name="ObjectShortName">dst_valid_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/dst_ready_i">
+      <obj_property name="ElementShortName">dst_ready_i</obj_property>
+      <obj_property name="ObjectShortName">dst_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/dst_data_o">
+      <obj_property name="ElementShortName">dst_data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">dst_data_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_input_0">
+      <obj_property name="ElementShortName">pip_input_0</obj_property>
+      <obj_property name="ObjectShortName">pip_input_0</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/pip_tmp">
+      <obj_property name="ElementShortName">pip_tmp[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pip_tmp[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/pip_valid">
+      <obj_property name="ElementShortName">pip_valid[3:0]</obj_property>
+      <obj_property name="ObjectShortName">pip_valid[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_enbl_in">
+      <obj_property name="ElementShortName">pip_enbl_in</obj_property>
+      <obj_property name="ObjectShortName">pip_enbl_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_enbl_out">
+      <obj_property name="ElementShortName">pip_enbl_out</obj_property>
+      <obj_property name="ObjectShortName">pip_enbl_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_valid_in">
+      <obj_property name="ElementShortName">pip_valid_in</obj_property>
+      <obj_property name="ObjectShortName">pip_valid_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_valid_out">
+      <obj_property name="ElementShortName">pip_valid_out</obj_property>
+      <obj_property name="ObjectShortName">pip_valid_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_ready_in">
+      <obj_property name="ElementShortName">pip_ready_in</obj_property>
+      <obj_property name="ObjectShortName">pip_ready_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/pip_ready_out">
+      <obj_property name="ElementShortName">pip_ready_out</obj_property>
+      <obj_property name="ObjectShortName">pip_ready_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/cdc_data_i">
+      <obj_property name="ElementShortName">cdc_data_i[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cdc_data_i[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_valid_i">
+      <obj_property name="ElementShortName">cdc_valid_i</obj_property>
+      <obj_property name="ObjectShortName">cdc_valid_i</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_ready_o">
+      <obj_property name="ElementShortName">cdc_ready_o</obj_property>
+      <obj_property name="ObjectShortName">cdc_ready_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_valid_o">
+      <obj_property name="ElementShortName">cdc_valid_o</obj_property>
+      <obj_property name="ObjectShortName">cdc_valid_o</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_ready_i">
+      <obj_property name="ElementShortName">cdc_ready_i</obj_property>
+      <obj_property name="ObjectShortName">cdc_ready_i</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/input_module_tb/inmod_dut/cdc_data_o">
+      <obj_property name="ElementShortName">cdc_data_o[3:0]</obj_property>
+      <obj_property name="ObjectShortName">cdc_data_o[3:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/cdc_valid_o_peak">
+      <obj_property name="ElementShortName">cdc_valid_o_peak</obj_property>
+      <obj_property name="ObjectShortName">cdc_valid_o_peak</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/valid_peak/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/valid_peak/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/valid_peak/in">
+      <obj_property name="ElementShortName">in</obj_property>
+      <obj_property name="ObjectShortName">in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/valid_peak/out">
+      <obj_property name="ElementShortName">out</obj_property>
+      <obj_property name="ObjectShortName">out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/input_module_tb/inmod_dut/valid_peak/in_d">
+      <obj_property name="ElementShortName">in_d</obj_property>
+      <obj_property name="ObjectShortName">in_d</obj_property>
+   </wvobject>
+</wave_config>

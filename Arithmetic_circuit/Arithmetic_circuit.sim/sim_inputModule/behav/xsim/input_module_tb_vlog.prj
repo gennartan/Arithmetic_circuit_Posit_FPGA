@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../Arithmetic_circuit.srcs/sources_1/new" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/input_module.sv" \
+"../../../../Arithmetic_circuit.srcs/sim_inputModule/new/input_module_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

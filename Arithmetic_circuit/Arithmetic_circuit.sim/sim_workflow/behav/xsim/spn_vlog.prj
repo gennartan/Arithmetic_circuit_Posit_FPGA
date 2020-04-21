@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../Arithmetic_circuit.srcs/sources_1/new" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/adder.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/decoder.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/encoder.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/multiplier.sv" \
+"../../../../Arithmetic_circuit.srcs/sources_1/new/spn.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

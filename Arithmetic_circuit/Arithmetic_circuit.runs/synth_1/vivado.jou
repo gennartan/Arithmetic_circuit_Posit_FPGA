@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 21 14:13:57 2020
+# Process ID: 4069
+# Current directory: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1
+# Command line: vivado -log TopBlock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopBlock.tcl
+# Log file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/TopBlock.vds
+# Journal file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TopBlock.tcl -notrace

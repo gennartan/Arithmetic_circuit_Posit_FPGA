@@ -1,0 +1,44 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 4 -x 1150 -y 310 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 4 -x 1150 -y 330 -defaultsOSRD
+preplace port clk0 -pg 1 -lvl 4 -x 1150 -y 450 -defaultsOSRD
+preplace port clk1 -pg 1 -lvl 4 -x 1150 -y 470 -defaultsOSRD
+preplace port BRAM_CLK -pg 1 -lvl 4 -x 1150 -y 100 -defaultsOSRD
+preplace port BRAM_RST -pg 1 -lvl 4 -x 1150 -y 160 -defaultsOSRD
+preplace port rst0 -pg 1 -lvl 4 -x 1150 -y 490 -defaultsOSRD
+preplace port rst1 -pg 1 -lvl 4 -x 1150 -y 510 -defaultsOSRD
+preplace portBus BRAM_ADDR -pg 1 -lvl 4 -x 1150 -y 80 -defaultsOSRD
+preplace portBus BRAM_W_DATA -pg 1 -lvl 4 -x 1150 -y 120 -defaultsOSRD
+preplace portBus BRAM_R_DATA -pg 1 -lvl 0 -x 0 -y 20 -defaultsOSRD
+preplace portBus BRAM_WE -pg 1 -lvl 4 -x 1150 -y 180 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 3 -x 910 -y 410 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -x 910 -y 120 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 2 -x 550 -y 100 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 200 -y 200 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 4 20 100 390 10 700 570 1130
+preplace netloc processing_system7_0_FCLK_CLK1 1 3 1 NJ 470
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 4 20 580 NJ 580 NJ 580 1120
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 400 20 690
+preplace netloc axi_bram_ctrl_0_bram_addr_a 1 3 1 NJ 80
+preplace netloc axi_bram_ctrl_0_bram_clk_a 1 3 1 NJ 100
+preplace netloc axi_bram_ctrl_0_bram_wrdata_a 1 3 1 NJ 120
+preplace netloc BRAM_R_DATA_1 1 0 4 NJ 20 380J 240 NJ 240 1130
+preplace netloc axi_bram_ctrl_0_bram_rst_a 1 3 1 NJ 160
+preplace netloc axi_bram_ctrl_0_bram_we_a 1 3 1 NJ 180
+preplace netloc processing_system7_0_FCLK_RESET1_N 1 3 1 NJ 510
+preplace netloc axi_smc_M00_AXI 1 2 1 N 100
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 3 410 250 NJ 250 1130
+preplace netloc processing_system7_0_DDR 1 3 1 NJ 310
+preplace netloc processing_system7_0_FIXED_IO 1 3 1 NJ 330
+levelinfo -pg 1 0 200 550 910 1150
+pagesize -pg 1 -db -bbox -sgen -200 0 1360 590
+"
+}
+{
+   "da_axi4_cnt":"1",
+   "da_bram_cntlr_cnt":"1",
+   "da_ps7_cnt":"1"
+}

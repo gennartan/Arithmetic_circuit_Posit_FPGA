@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="Auto Detect" key="TopBlock_hw_platform_0-device"/>
+	<item value="TopBlock.bit" key="TopBlock_hw_platform_0-bitFile"/>
+	<item value="" key="TopBlock_hw_platform_0-bmmFile"/>
+	<item value="false" key="TopBlock_hw_platform_0-partial_bit"/>
+	<item value="TopBlock_hw_platform_0" key="programfpga.hwplatform"/>
+	<item value="Local" key="TopBlock_hw_platform_0-target"/>
+</section>

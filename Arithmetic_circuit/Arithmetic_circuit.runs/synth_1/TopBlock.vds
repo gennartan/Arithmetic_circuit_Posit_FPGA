@@ -1,0 +1,812 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Tue Apr 21 14:13:57 2020
+# Process ID: 4069
+# Current directory: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1
+# Command line: vivado -log TopBlock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopBlock.tcl
+# Log file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/TopBlock.vds
+# Journal file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source TopBlock.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/media/gennart/Files/Xilinx/Vivado/2019.1/data/ip'.
+Command: synth_design -top TopBlock -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4206 
+WARNING: [Synth 8-6901] identifier 'cdc_ready_o' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/input_module.sv:94]
+WARNING: [Synth 8-6901] identifier 'spn_ready_in' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/workflow.sv:65]
+WARNING: [Synth 8-6901] identifier 'wf_dst_odata' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:195]
+WARNING: [Synth 8-6901] identifier 'wf_dst_odata' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:196]
+WARNING: [Synth 8-6901] identifier 'wf_dst_odata' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:197]
+WARNING: [Synth 8-6901] identifier 'wf_dst_odata' is used before its declaration [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:198]
+WARNING: [Synth 8-2507] parameter declaration becomes local in fifo with formal parameter declaration list [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/fifo.v:17]
+WARNING: [Synth 8-2507] parameter declaration becomes local in fifo with formal parameter declaration list [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/fifo.v:18]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1836.219 ; gain = 156.684 ; free physical = 130 ; free virtual = 16631
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TopBlock' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:24]
+INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_0' (1#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_axi_bram_ctrl_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_bram_ctrl_0' of module 'design_1_axi_bram_ctrl_0_0' has 40 connections declared, but only 39 given [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:189]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_smc_0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_axi_smc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_smc_0' (2#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_axi_smc_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'axi_smc' of module 'design_1_axi_smc_0' has 73 connections declared, but only 71 given [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:229]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (3#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_processing_system7_0_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'processing_system7_0' of module 'design_1_processing_system7_0_0' has 70 connections declared, but only 65 given [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:301]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (4#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/.Xil/Vivado-4069-gennart-G3-3579/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+WARNING: [Synth 8-7023] instance 'rst_ps7_0_100M' of module 'design_1_rst_ps7_0_100M_0' has 10 connections declared, but only 6 given [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:367]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (5#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (6#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'RstSync' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/RstSync.v:1]
+INFO: [Synth 8-6157] synthesizing module 'reg_arstn' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+	Parameter DATA_W bound to: 1 - type: integer 
+	Parameter PRESET_VAL bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_arstn' (7#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RstSync' (8#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/RstSync.v:1]
+INFO: [Synth 8-6157] synthesizing module 'reg_arstn__parameterized0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+	Parameter DATA_W bound to: 32 - type: integer 
+	Parameter PRESET_VAL bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_arstn__parameterized0' (8#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'fifo' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/fifo.v:2]
+	Parameter DATA_W bound to: 32 - type: integer 
+	Parameter LOG2_RAM_DEPTH bound to: 6 - type: integer 
+	Parameter ADDR_W bound to: 6 - type: integer 
+	Parameter RAM_DEPTH bound to: 64 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'reg_arstn__parameterized1' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+	Parameter DATA_W bound to: 6 - type: integer 
+	Parameter PRESET_VAL bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'reg_arstn__parameterized1' (8#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/reg_arstn.v:2]
+WARNING: [Synth 8-6014] Unused sequential element array__reg was removed.  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/fifo.v:86]
+INFO: [Synth 8-6155] done synthesizing module 'fifo' (9#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/fifo.v:2]
+INFO: [Synth 8-6157] synthesizing module 'BitToNumber' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/BitToNumber.v:1]
+	Parameter DATA_W bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'BitToNumber' (10#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/BitToNumber.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RisingEdgeDetector' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/RisingEdgeDetector.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'RisingEdgeDetector' (11#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/RisingEdgeDetector.v:23]
+INFO: [Synth 8-6157] synthesizing module 'workflow' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/workflow.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'input_module' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/input_module.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'cdc_2phase' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:19]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:36]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:37]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:38]
+INFO: [Synth 8-6157] synthesizing module 'cdc_2phase_src' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:68]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:82]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:84]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_2phase_src' (12#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:68]
+INFO: [Synth 8-6157] synthesizing module 'cdc_2phase_dst' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:118]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:133]
+INFO: [Synth 8-5534] Detected attribute (* async_reg = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:133]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:135]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_2phase_dst' (13#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:118]
+INFO: [Synth 8-6155] done synthesizing module 'cdc_2phase' (14#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/cdc_2phase.sv:19]
+WARNING: [Synth 8-5788] Register pip_valid_reg in module input_module is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/input_module.sv:61]
+WARNING: [Synth 8-5788] Register pip_tmp_reg in module input_module is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/input_module.sv:66]
+INFO: [Synth 8-6155] done synthesizing module 'input_module' (15#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/input_module.sv:21]
+INFO: [Synth 8-6157] synthesizing module 'spn' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/spn.sv:20]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/multiplier.sv:25]
+	Parameter SIZE bound to: 8 - type: integer 
+	Parameter EXP_SIZE bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'decoder' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/decoder.sv:26]
+	Parameter SIZE bound to: 8 - type: integer 
+	Parameter EXP_SIZE bound to: 0 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'leading_zero_counter' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:24]
+	Parameter SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'leading_zero_counter_8' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:182]
+	Parameter SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'enc' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:220]
+	Parameter SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'enc' (16#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:220]
+INFO: [Synth 8-6157] synthesizing module 'assemblei' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:247]
+	Parameter SIZE bound to: 4 - type: integer 
+	Parameter I bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'assemblei' (17#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:247]
+INFO: [Synth 8-6157] synthesizing module 'assemblei__parameterized0' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:247]
+	Parameter SIZE bound to: 2 - type: integer 
+	Parameter I bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'assemblei__parameterized0' (17#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:247]
+INFO: [Synth 8-6155] done synthesizing module 'leading_zero_counter_8' (18#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:182]
+INFO: [Synth 8-6155] done synthesizing module 'leading_zero_counter' (19#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/leading_zero_counter.sv:24]
+INFO: [Synth 8-6155] done synthesizing module 'decoder' (20#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/decoder.sv:26]
+INFO: [Synth 8-6157] synthesizing module 'encoder' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/encoder.sv:25]
+	Parameter SIZE bound to: 8 - type: integer 
+	Parameter EXP_SIZE bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'encoder' (21#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/encoder.sv:25]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sht_out_sig_res_reg' and it is trimmed from '14' to '13' bits. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/multiplier.sv:85]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (22#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/multiplier.sv:25]
+INFO: [Synth 8-6157] synthesizing module 'adder' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/adder.sv:26]
+	Parameter SIZE bound to: 8 - type: integer 
+	Parameter EXP_SIZE bound to: 0 - type: integer 
+WARNING: [Synth 8-3936] Found unconnected internal register 'sum_sum_shift_reg' and it is trimmed from '8' to '7' bits. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/adder.sv:107]
+WARNING: [Synth 8-3936] Found unconnected internal register 'sum_exp_sum_reg' and it is trimmed from '5' to '4' bits. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/adder.sv:108]
+INFO: [Synth 8-6155] done synthesizing module 'adder' (23#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/adder.sv:26]
+INFO: [Synth 8-4471] merging register 'output_9_2_pip0_reg[7:0]' into 'output_6_5_pip0_reg[7:0]' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/spn.sv:155]
+WARNING: [Synth 8-6014] Unused sequential element output_9_2_pip0_reg was removed.  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/spn.sv:155]
+INFO: [Synth 8-6155] done synthesizing module 'spn' (24#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/spn.sv:20]
+INFO: [Synth 8-6155] done synthesizing module 'workflow' (25#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/workflow.sv:20]
+WARNING: [Synth 8-689] width (2) of port connection 'src_idata_i' does not match port width (1) of module 'workflow' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:227]
+INFO: [Synth 8-6157] synthesizing module 'ClkDomSyncOversample' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/ClkDomSyncOversample.v:1]
+	Parameter WIDTH bound to: 8 - type: integer 
+WARNING: [Synth 8-6014] Unused sequential element data_in_d_reg was removed.  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/ClkDomSyncOversample.v:24]
+WARNING: [Synth 8-6014] Unused sequential element data_in_dd_reg was removed.  [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/ClkDomSyncOversample.v:25]
+INFO: [Synth 8-6155] done synthesizing module 'ClkDomSyncOversample' (26#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/ClkDomSyncOversample.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'data_out' does not match port width (8) of module 'ClkDomSyncOversample' [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:246]
+INFO: [Synth 8-6155] done synthesizing module 'TopBlock' (27#1) [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/topBlock.sv:24]
+WARNING: [Synth 8-3331] design encoder has unconnected port enc_parsed_posit[significand][6]
+WARNING: [Synth 8-3331] design spn has unconnected port enbl_out
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNU
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTND
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNR
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNL
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNC
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW0
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW1
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW2
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW3
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW4
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW5
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW6
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW7
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 1876.125 ; gain = 196.590 ; free physical = 216 ; free virtual = 16656
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1893.938 ; gain = 214.402 ; free physical = 215 ; free virtual = 16657
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1893.938 ; gain = 214.402 ; free physical = 215 ; free virtual = 16657
+---------------------------------------------------------------------------------
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'BlockDesign/design_1_i/processing_system7_0'
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0/design_1_processing_system7_0_0_in_context.xdc] for cell 'BlockDesign/design_1_i/processing_system7_0'
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0_in_context.xdc] for cell 'BlockDesign/design_1_i/axi_bram_ctrl_0'
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0/design_1_axi_bram_ctrl_0_0_in_context.xdc] for cell 'BlockDesign/design_1_i/axi_bram_ctrl_0'
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'BlockDesign/design_1_i/axi_smc'
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_axi_smc_0/design_1_axi_smc_0/design_1_axi_smc_0_in_context.xdc] for cell 'BlockDesign/design_1_i/axi_smc'
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'BlockDesign/design_1_i/rst_ps7_0_100M'
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_in_context.xdc] for cell 'BlockDesign/design_1_i/rst_ps7_0_100M'
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA02_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:273]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA02_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:274]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA03_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:275]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA03_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:276]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA04_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:277]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA04_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:278]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA05_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:279]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA05_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:280]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA06_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:281]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA06_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:282]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA07_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:283]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA07_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:284]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA08_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:285]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA08_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:286]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA09_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:287]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA09_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:288]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA10_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:289]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA10_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:290]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA11_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:291]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA11_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:292]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA12_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:293]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA12_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:294]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA13_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:295]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA13_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:296]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA14_N'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:297]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA14_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:298]
+WARNING: [Vivado 12-584] No ports matched 'FMC_LA15_P'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:299]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 33]]'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:357]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 34]]'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:362]
+WARNING: [Vivado 12-584] No ports matched '[get_ports -of_objects [get_iobanks 35]]'. [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc:367]
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/TopBlock_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/zedboard_master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopBlock_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TopBlock_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/topblock.xdc]
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/constrs_1/new/topblock.xdc]
+Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2090.469 ; gain = 0.000 ; free physical = 135 ; free virtual = 16542
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.03 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2090.469 ; gain = 0.000 ; free physical = 134 ; free virtual = 16541
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 216 ; free virtual = 16630
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 215 ; free virtual = 16629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for BlockDesign/design_1_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlockDesign/design_1_i/processing_system7_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlockDesign/design_1_i/axi_bram_ctrl_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlockDesign/design_1_i/axi_smc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for BlockDesign/design_1_i/rst_ps7_0_100M. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 213 ; free virtual = 16628
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/decoder.sv:74]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [/home/gennart/Arithmetic_circuit/Arithmetic_circuit.srcs/sources_1/new/multiplier.sv:83]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 204 ; free virtual = 16623
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 8     
+	   2 Input      8 Bit       Adders := 10    
+	   2 Input      6 Bit       Adders := 3     
+	   2 Input      5 Bit       Adders := 18    
+	   3 Input      5 Bit       Adders := 2     
+	   2 Input      4 Bit       Adders := 42    
+	   3 Input      4 Bit       Adders := 6     
+	   2 Input      3 Bit       Adders := 32    
++---Registers : 
+	               32 Bit    Registers := 67    
+	                8 Bit    Registers := 16    
+	                6 Bit    Registers := 3     
+	                4 Bit    Registers := 4     
+	                1 Bit    Registers := 25    
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 6     
+	   2 Input      8 Bit        Muxes := 56    
+	   2 Input      7 Bit        Muxes := 54    
+	   2 Input      5 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 109   
+	   2 Input      3 Bit        Muxes := 64    
+	   2 Input      2 Bit        Muxes := 129   
+	   2 Input      1 Bit        Muxes := 72    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module reg_arstn 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module reg_arstn__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module reg_arstn__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	                6 Bit    Registers := 1     
+Module fifo 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      6 Bit       Adders := 3     
++---Registers : 
+	               32 Bit    Registers := 64    
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 64    
+Module RisingEdgeDetector 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 2     
+Module cdc_2phase_src 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 3     
+Module cdc_2phase_dst 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 1     
+Module input_module 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 2     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module enc 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      2 Bit        Muxes := 8     
+Module assemblei 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 2     
++---Muxes : 
+	   2 Input      3 Bit        Muxes := 4     
+Module assemblei__parameterized0 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 2     
+Module decoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 3     
+Module encoder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      8 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 4     
+	   2 Input      4 Bit        Muxes := 1     
+Module multiplier 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input     13 Bit        Muxes := 1     
+	   2 Input      7 Bit        Muxes := 2     
+	   2 Input      4 Bit        Muxes := 2     
+Module adder 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      8 Bit       Adders := 1     
+	   3 Input      5 Bit       Adders := 1     
+	   2 Input      5 Bit       Adders := 1     
+	   2 Input      4 Bit       Adders := 1     
++---Muxes : 
+	   2 Input      7 Bit        Muxes := 5     
+	   2 Input      5 Bit        Muxes := 1     
+	   2 Input      4 Bit        Muxes := 4     
+	   2 Input      1 Bit        Muxes := 3     
+Module spn 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 15    
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 7     
+Module ClkDomSyncOversample 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+	                1 Bit    Registers := 4     
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design spn has unconnected port enbl_out
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNU
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTND
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNR
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNL
+WARNING: [Synth 8-3331] design TopBlock has unconnected port BTNC
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW0
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW1
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW2
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW3
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW4
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW5
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW6
+WARNING: [Synth 8-3331] design TopBlock has unconnected port SW7
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_8_7_pip0_reg[6]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip0_reg[6]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_6_5_pip0_reg[6]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[1]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[2]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[3]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[4]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[5]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_9_3_pip0_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_9_3_pip0_reg[6] )
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip1_reg[6]' (FDR) to 'workflow_dut/spn_dut/output_9_3_pip0_reg[6]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[0]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[1]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[1]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[2]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[2]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[3]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[3]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[4]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[4]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[5]'
+INFO: [Synth 8-3886] merging instance 'workflow_dut/spn_dut/output_11_1_pip2_reg[5]' (FDR) to 'workflow_dut/spn_dut/output_11_1_pip2_reg[6]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[63][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[63][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[62][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[62][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[61][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[61][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[60][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[60][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[59][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[59][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[58][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[58][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[57][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[57][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[56][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[56][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[55][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[55][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[54][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[54][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[53][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[53][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[52][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[52][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[51][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[51][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[50][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[50][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[49][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[49][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[48][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[48][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[47][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[47][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[46][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[46][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[45][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[45][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[44][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[44][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[43][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[43][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[42][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[42][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[41][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[41][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[40][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[40][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[39][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[39][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[38][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[38][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[37][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[37][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[36][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[36][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[35][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[35][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[34][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[34][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[33][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[33][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[32][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[32][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[31][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[31][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[30][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[30][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[29][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[29][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[28][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[28][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[27][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[27][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[26][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[26][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[25][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[25][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[24][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[24][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[23][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[23][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[22][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[22][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[21][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[21][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[20][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[20][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[19][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[19][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[18][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[18][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[17][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[17][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[16][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[16][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[15][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[15][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[14][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[14][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[13][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[13][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[12][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[12][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[11][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[11][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[10][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[10][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[9][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[9][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[8][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[8][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[7][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[7][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[6][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[6][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[5][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[5][31]'
+INFO: [Synth 8-3886] merging instance 'FPGA_to_PS_fifo/array_reg[4][8]' (FDCE) to 'FPGA_to_PS_fifo/array_reg[4][31]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[63][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[62][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[61][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[60][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[59][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[58][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[57][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[56][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[55][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[54][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[53][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[52][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[51][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[50][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[49][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[48][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[47][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[46][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[45][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[44][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[43][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[42][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[41][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[40][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[39][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[38][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[37][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[36][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[35][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[34][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[33][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[32][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[31][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[30][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[29][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[28][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[27][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[26][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[25][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[24][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[23][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[22][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[21][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[20][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[19][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[18][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[17][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[16][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[15][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[14][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[13][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[12][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[11][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[10][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[9][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[8][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[7][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[6][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[5][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[4][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[3][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[2][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[1][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\FPGA_to_PS_fifo/array_reg[0][31] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_9_3_pip0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_9_3_pip0_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_10_9_pip0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_4_10_pip0_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_11_0_pip0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_12_11_pip0_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\workflow_dut/spn_dut /\output_4_12_pip0_reg[4] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 159 ; free virtual = 16598
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5578] Moved timing constraint from pin 'BlockDesign/design_1_i/processing_system7_0/FCLK_CLK0' to pin 'BlockDesign/design_1_i/processing_system7_0/bbstub_FCLK_CLK0/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'BlockDesign/design_1_i/processing_system7_0/FCLK_CLK1' to pin 'BlockDesign/design_1_i/processing_system7_0/bbstub_FCLK_CLK1/O'
+INFO: [Synth 8-5578] Moved timing constraint from pin 'BlockDesign/design_1_i/axi_bram_ctrl_0/bram_clk_a' to pin 'BlockDesign/design_1_i/axi_bram_ctrl_0/bbstub_bram_clk_a/O'
+INFO: [Synth 8-5819] Moved 3 constraints on hierarchical pins to their respective driving/loading pins
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:32 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 136 ; free virtual = 16473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ClkDomSyncer/data_out_reg[0] )
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 167 ; free virtual = 16474
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:24 ; elapsed = 00:00:33 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 166 ; free virtual = 16474
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16478
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16479
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16479
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16478
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+--------------------------------+----------+
+|      |BlackBox name                   |Instances |
++------+--------------------------------+----------+
+|1     |design_1_axi_bram_ctrl_0_0      |         1|
+|2     |design_1_axi_smc_0              |         1|
+|3     |design_1_processing_system7_0_0 |         1|
+|4     |design_1_rst_ps7_0_100M_0       |         1|
++------+--------------------------------+----------+
+
+Report Cell Usage: 
++------+--------------------------------+------+
+|      |Cell                            |Count |
++------+--------------------------------+------+
+|1     |design_1_axi_bram_ctrl_0_0      |     1|
+|2     |design_1_axi_smc_0              |     1|
+|3     |design_1_processing_system7_0_0 |     1|
+|4     |design_1_rst_ps7_0_100M_0       |     1|
+|5     |CARRY4                          |     3|
+|6     |LUT1                            |     4|
+|7     |LUT2                            |    24|
+|8     |LUT3                            |    18|
+|9     |LUT4                            |    10|
+|10    |LUT5                            |    12|
+|11    |LUT6                            |   214|
+|12    |MUXF7                           |    56|
+|13    |MUXF8                           |    14|
+|14    |FDCE                            |   508|
+|15    |FDRE                            |    29|
+|16    |OBUF                            |     8|
++------+--------------------------------+------+
+
+Report Instance Areas: 
++------+-------------------+----------------------------+------+
+|      |Instance           |Module                      |Cells |
++------+-------------------+----------------------------+------+
+|1     |top                |                            |  1379|
+|2     |  BlockDesign      |design_1_wrapper            |   489|
+|3     |    design_1_i     |design_1                    |   479|
+|4     |  ClkDomSyncer     |ClkDomSyncOversample        |    16|
+|5     |  FPGA_to_PS_fifo  |fifo                        |   764|
+|6     |    rd_pointer_reg |reg_arstn__parameterized1   |   209|
+|7     |    status_cnt_reg |reg_arstn__parameterized1_5 |    15|
+|8     |    wr_pointer_reg |reg_arstn__parameterized1_6 |    90|
+|9     |  REDADDR1         |RisingEdgeDetector          |     2|
+|10    |  REDADDR2         |RisingEdgeDetector_0        |     3|
+|11    |  RstSync0         |RstSync                     |     2|
+|12    |    reg1           |reg_arstn_3                 |     1|
+|13    |    reg2           |reg_arstn_4                 |     1|
+|14    |  RstSync1         |RstSync_1                   |     6|
+|15    |    reg1           |reg_arstn                   |     1|
+|16    |    reg2           |reg_arstn_2                 |     5|
+|17    |  Settings0_reg    |reg_arstn__parameterized0   |     6|
+|18    |  workflow_dut     |workflow                    |    83|
+|19    |    dut_inmod      |input_module                |    34|
+|20    |      cdc_dut      |cdc_2phase                  |    25|
+|21    |        i_dst      |cdc_2phase_dst              |    11|
+|22    |        i_src      |cdc_2phase_src              |    14|
+|23    |    spn_dut        |spn                         |    49|
++------+-------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 170 ; free virtual = 16479
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 14 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:28 . Memory (MB): peak = 2090.469 ; gain = 214.402 ; free physical = 222 ; free virtual = 16531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:34 . Memory (MB): peak = 2090.469 ; gain = 410.934 ; free physical = 222 ; free virtual = 16531
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2090.469 ; gain = 0.000 ; free physical = 162 ; free virtual = 16482
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+264 Infos, 83 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:41 . Memory (MB): peak = 2090.469 ; gain = 646.375 ; free physical = 258 ; free virtual = 16578
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2090.469 ; gain = 0.000 ; free physical = 257 ; free virtual = 16579
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint '/home/gennart/Arithmetic_circuit/Arithmetic_circuit.runs/synth_1/TopBlock.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TopBlock_utilization_synth.rpt -pb TopBlock_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 21 14:15:07 2020...
