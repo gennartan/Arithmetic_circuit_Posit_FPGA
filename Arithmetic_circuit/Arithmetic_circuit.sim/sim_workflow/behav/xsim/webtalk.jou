@@ -2,11 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Tue Apr 21 13:00:32 2020
-# Process ID: 27463
-# Current directory: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim
-# Command line: wbtcv -mode batch -source /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/xsim.dir/workflow_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/webtalk.log
-# Journal file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/webtalk.jou
+# Start of session at: Thu May 21 15:35:41 2020
+# Process ID: 52935
+# Current directory: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim
+# Command line: wbtcv -mode batch -source /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/xsim.dir/workflow_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/webtalk.log
+# Journal file: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/xsim.dir/workflow_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+source /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_workflow/behav/xsim/xsim.dir/workflow_tb_behav/webtalk/xsim_webtalk.tcl -notrace

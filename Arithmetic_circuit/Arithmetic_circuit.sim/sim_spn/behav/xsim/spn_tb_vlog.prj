@@ -1,6 +1,5 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  --include "../../../../Arithmetic_circuit.srcs/sources_1/new" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/8c62/hdl" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/1ddd/hdl/verilog" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/b2d0/hdl/verilog" --include "/media/gennart/Files/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
-"../../../../Arithmetic_circuit.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
 "../../../../Arithmetic_circuit.ip_user_files/bd/design_1/ip/design_1_axi_smc_0/bd_0/sim/bd_afc3.v" \
 "../../../../Arithmetic_circuit.ip_user_files/bd/design_1/ip/design_1_axi_smc_0/bd_0/ip/ip_0/sim/bd_afc3_one_0.v" \
 
@@ -37,6 +36,7 @@ sv xil_defaultlib  --include "../../../../Arithmetic_circuit.srcs/sources_1/new"
 "../../../../Arithmetic_circuit.srcs/sources_1/new/workflow.sv" \
 
 verilog xil_defaultlib  --include "../../../../Arithmetic_circuit.srcs/sources_1/new" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/8c62/hdl" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/1ddd/hdl/verilog" --include "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/ipshared/b2d0/hdl/verilog" --include "/media/gennart/Files/Xilinx/Vivado/2019.1/data/xilinx_vip/include" \
+"../../../../Arithmetic_circuit.ip_user_files/bd/design_1/ip/design_1_processing_system7_0_0/sim/design_1_processing_system7_0_0.v" \
 "../../../../Arithmetic_circuit.ip_user_files/bd/design_1/sim/design_1.v" \
 "../../../../Arithmetic_circuit.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v" \
 

@@ -2,11 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Apr 17 11:27:51 2020
-# Process ID: 24214
-# Current directory: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim
-# Command line: wbtcv -mode batch -source /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/xsim.dir/adder_multiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-# Log file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/webtalk.log
-# Journal file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/webtalk.jou
+# Start of session at: Fri May 22 20:01:39 2020
+# Process ID: 237627
+# Current directory: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim
+# Command line: wbtcv -mode batch -source /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/xsim.dir/adder_multiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/webtalk.log
+# Journal file: /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/webtalk.jou
 #-----------------------------------------------------------
-source /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/xsim.dir/adder_multiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+source /home/gennart/Documents/MAI/Thesis/Arithmetic_circuit_Posit_FPGA/Arithmetic_circuit/Arithmetic_circuit.sim/sim_adder_multiplier/behav/xsim/xsim.dir/adder_multiplier_tb_behav/webtalk/xsim_webtalk.tcl -notrace

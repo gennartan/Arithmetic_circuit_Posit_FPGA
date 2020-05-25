@@ -374,3 +374,5 @@ set_property IOSTANDARD LVCMOS18 [get_ports -of_objects [get_iobanks 35]]
 #set_false_path -from [get_pins {MT/TM/rx_data_reg/r_reg[3]/C}] -to [get_pins {CDSO/data_out_reg[3]_rep__1/D}]
 #set_false_path -from [get_pins {MT/TM/rx_data_reg/r_reg[*]/C}] -to [get_pins {CDSO/data_out_reg[*]_rep__1/D}]
 
+
+

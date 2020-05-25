@@ -17,18 +17,12 @@ set_output_delay -clock [get_clocks clk_fpga_1] -max -add_delay 2.000 [get_ports
 set_false_path -from [get_clocks clk_fpga_0] -to [get_clocks clk_fpga_1]
 set_false_path -from [get_pins {BlockDesign/design_1_i/processing_system7_0/inst/PS7_i/FCLKCLK[1]}] -to [get_pins ClkDomSyncer/clk_in_d_reg/D]
 set_false_path -from [get_pins workflow_dut/dut_inmod/cdc_dut/i_dst/ack_dst_q_reg/C] -to [get_pins workflow_dut/dut_inmod/cdc_dut/i_src/ack_src_q_reg/D]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[5]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[2]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[6]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_10_pip2_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[7]/D}]
-set_false_path -from [get_pins workflow_dut/spn_dut/valid_5_reg/C] -to [get_pins ClkDomSyncer/clk_in_d_reg/D]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[7]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[1]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[5]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[6]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[5]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[7]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[5]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[1]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[7]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[2]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[7]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[6]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_12_pip0_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[7]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_10_pip2_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[3]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_10_pip2_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[4]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_10_pip2_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[5]/D}]
-set_false_path -from [get_pins {workflow_dut/spn_dut/output_4_10_pip2_reg[6]/C}] -to [get_pins {ClkDomSyncer/data_out_reg[1]/D}]
+
+set_false_path -from [get_pins {Settings0_reg/r_reg[0]/C}] -to [get_ports LD0]
+set_false_path -from [get_pins {Settings0_reg/r_reg[2]/C}] -to [get_ports LD2]
+set_false_path -from [get_pins {Settings0_reg/r_reg[3]/C}] -to [get_ports LD3]
+set_false_path -from [get_pins {Settings0_reg/r_reg[1]/C}] -to [get_ports LD1]
+
+set_false_path -from [get_clocks clk_fpga_1] -to [get_clocks clk_fpga_0]
+
+
