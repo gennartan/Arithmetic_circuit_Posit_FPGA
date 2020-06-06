@@ -1,6 +1,6 @@
 # Arithmetic_circuit_Posit_FPGA
 
-Implementation of __Arithmetic circuit__ in FPGA using __Posit__ representation.
+Implementation of __Arithmetic circuit__ in FPGA using __Posit__ representation. This repository is linked to a software implementation at [https://github.com/gennartan/spn_sw](https://github.com/gennartan/spn_sw)
 
 ## State of the Art
 
@@ -12,9 +12,9 @@ In this project, there is a working implementation of posit addition and multipl
 
 ### Arithmetic circuit (or Sum product network)
 
-A sum product network is ....
+A sum product network is a new deep network model for graphical probabilistic inference. A lot of informations about SPNs can be found at [https://github.com/arranger1044/awesome-spn](https://github.com/arranger1044/awesome-spn).
 
-I use SPNs from [here](https://github.com/UCLA-StarAI/Circuit-Model-Zoo).
+The SPNs I used in this work comes from [https://github.com/UCLA-StarAI/Circuit-Model-Zoo](https://github.com/UCLA-StarAI/Circuit-Model-Zoo).
 
 
 ## Implementation
