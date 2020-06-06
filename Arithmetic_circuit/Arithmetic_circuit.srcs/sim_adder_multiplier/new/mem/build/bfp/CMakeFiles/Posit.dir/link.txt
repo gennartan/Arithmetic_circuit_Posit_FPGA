@@ -1,0 +1,2 @@
+/usr/bin/ar qc libPosit.a  CMakeFiles/Posit.dir/lib/posit.cpp.o
+/usr/bin/ranlib libPosit.a

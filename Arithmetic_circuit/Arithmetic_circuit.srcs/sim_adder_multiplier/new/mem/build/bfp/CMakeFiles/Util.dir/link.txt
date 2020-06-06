@@ -1,0 +1,2 @@
+/usr/bin/ar qc libUtil.a  CMakeFiles/Util.dir/lib/util.c.o
+/usr/bin/ranlib libUtil.a

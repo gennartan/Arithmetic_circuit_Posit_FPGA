@@ -1,0 +1,2 @@
+/usr/bin/ar qc libOP2.a  CMakeFiles/OP2.dir/lib/op2.c.o
+/usr/bin/ranlib libOP2.a

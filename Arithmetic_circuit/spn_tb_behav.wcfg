@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spn_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="posit" />
+            <top_module name="spn_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="80203432fs"></ZoomEndTime>
+      <Cursor1Time time="20235000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="213"></NameColumnWidth>
+      <ValueColumnWidth column_width="212"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="332" />
+   <wvobject type="logic" fp_name="/spn_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_input">
+      <obj_property name="ElementShortName">spn_input[33:0]</obj_property>
+      <obj_property name="ObjectShortName">spn_input[33:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_output">
+      <obj_property name="ElementShortName">spn_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spn_output[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/enbl_in">
+      <obj_property name="ElementShortName">enbl_in</obj_property>
+      <obj_property name="ObjectShortName">enbl_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/ready_in">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/enbl_out">
+      <obj_property name="ElementShortName">enbl_out</obj_property>
+      <obj_property name="ObjectShortName">enbl_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/myMem">
+      <obj_property name="ElementShortName">myMem[8:0][33:0]</obj_property>
+      <obj_property name="ObjectShortName">myMem[8:0][33:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/period">
+      <obj_property name="ElementShortName">period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/rst">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/enbl_in">
+      <obj_property name="ElementShortName">enbl_in</obj_property>
+      <obj_property name="ObjectShortName">enbl_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/ready_in">
+      <obj_property name="ElementShortName">ready_in</obj_property>
+      <obj_property name="ObjectShortName">ready_in</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/enbl_out">
+      <obj_property name="ElementShortName">enbl_out</obj_property>
+      <obj_property name="ObjectShortName">enbl_out</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_out">
+      <obj_property name="ElementShortName">valid_out</obj_property>
+      <obj_property name="ObjectShortName">valid_out</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/spn_input">
+      <obj_property name="ElementShortName">spn_input[33:0]</obj_property>
+      <obj_property name="ObjectShortName">spn_input[33:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/spn_output">
+      <obj_property name="ElementShortName">spn_output[15:0]</obj_property>
+      <obj_property name="ObjectShortName">spn_output[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_0">
+      <obj_property name="ElementShortName">output_N_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_2">
+      <obj_property name="ElementShortName">output_N_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_2[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_1_0_pip0">
+      <obj_property name="ElementShortName">output_1_0_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_1_0_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_1_0">
+      <obj_property name="ElementShortName">input_1_0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_1_0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_1">
+      <obj_property name="ElementShortName">output_N_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_4_2_pip0">
+      <obj_property name="ElementShortName">output_4_2_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_4_2_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_4_2">
+      <obj_property name="ElementShortName">input_4_2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_4_2[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_4">
+      <obj_property name="ElementShortName">output_N_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_4[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_3_1_pip0">
+      <obj_property name="ElementShortName">output_3_1_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_3_1_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_3_4_pip0">
+      <obj_property name="ElementShortName">output_3_4_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_3_4_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_3_1">
+      <obj_property name="ElementShortName">input_3_1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_3_1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_3_4">
+      <obj_property name="ElementShortName">input_3_4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_3_4[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_3">
+      <obj_property name="ElementShortName">output_N_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_3[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_5">
+      <obj_property name="ElementShortName">output_N_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_5[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_8">
+      <obj_property name="ElementShortName">output_N_8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_8[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_7_5_pip0">
+      <obj_property name="ElementShortName">output_7_5_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_7_5_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_7_5">
+      <obj_property name="ElementShortName">input_7_5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_7_5[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_7">
+      <obj_property name="ElementShortName">output_N_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_7[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_10_8_pip0">
+      <obj_property name="ElementShortName">output_10_8_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_10_8_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_10_8">
+      <obj_property name="ElementShortName">input_10_8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_10_8[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_10">
+      <obj_property name="ElementShortName">output_N_10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_10[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_6_7_pip0">
+      <obj_property name="ElementShortName">output_6_7_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_6_7_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_6_10_pip0">
+      <obj_property name="ElementShortName">output_6_10_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_6_10_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_6_7">
+      <obj_property name="ElementShortName">input_6_7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_6_7[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_6_10">
+      <obj_property name="ElementShortName">input_6_10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_6_10[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_6">
+      <obj_property name="ElementShortName">output_N_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_6[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_11">
+      <obj_property name="ElementShortName">output_N_11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_11[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_14">
+      <obj_property name="ElementShortName">output_N_14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_14[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_13_11_pip0">
+      <obj_property name="ElementShortName">output_13_11_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_13_11_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_13_11">
+      <obj_property name="ElementShortName">input_13_11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_13_11[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_13">
+      <obj_property name="ElementShortName">output_N_13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_13[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_16_14_pip0">
+      <obj_property name="ElementShortName">output_16_14_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_16_14_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_16_14">
+      <obj_property name="ElementShortName">input_16_14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_16_14[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_16">
+      <obj_property name="ElementShortName">output_N_16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_16[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_9_13_pip0">
+      <obj_property name="ElementShortName">output_9_13_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_9_13_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_9_16_pip0">
+      <obj_property name="ElementShortName">output_9_16_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_9_16_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_9_13">
+      <obj_property name="ElementShortName">input_9_13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_9_13[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_9_16">
+      <obj_property name="ElementShortName">input_9_16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_9_16[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_9">
+      <obj_property name="ElementShortName">output_N_9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_9[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_17">
+      <obj_property name="ElementShortName">output_N_17[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_17[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_20">
+      <obj_property name="ElementShortName">output_N_20[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_20[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_19_17_pip0">
+      <obj_property name="ElementShortName">output_19_17_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_19_17_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_19_17">
+      <obj_property name="ElementShortName">input_19_17[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_19_17[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_19">
+      <obj_property name="ElementShortName">output_N_19[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_19[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_22_20_pip0">
+      <obj_property name="ElementShortName">output_22_20_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_22_20_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_22_20">
+      <obj_property name="ElementShortName">input_22_20[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_22_20[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_22">
+      <obj_property name="ElementShortName">output_N_22[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_22[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_12_19_pip0">
+      <obj_property name="ElementShortName">output_12_19_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_12_19_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_12_22_pip0">
+      <obj_property name="ElementShortName">output_12_22_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_12_22_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_12_19">
+      <obj_property name="ElementShortName">input_12_19[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_12_19[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_12_22">
+      <obj_property name="ElementShortName">input_12_22[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_12_22[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_12">
+      <obj_property name="ElementShortName">output_N_12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_12[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_23">
+      <obj_property name="ElementShortName">output_N_23[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_23[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_26">
+      <obj_property name="ElementShortName">output_N_26[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_26[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_25_23_pip0">
+      <obj_property name="ElementShortName">output_25_23_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_25_23_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_25_23">
+      <obj_property name="ElementShortName">input_25_23[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_25_23[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_25">
+      <obj_property name="ElementShortName">output_N_25[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_25[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_28_26_pip0">
+      <obj_property name="ElementShortName">output_28_26_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_28_26_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_28_26">
+      <obj_property name="ElementShortName">input_28_26[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_28_26[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_28">
+      <obj_property name="ElementShortName">output_N_28[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_28[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_15_25_pip0">
+      <obj_property name="ElementShortName">output_15_25_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_15_25_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_15_28_pip0">
+      <obj_property name="ElementShortName">output_15_28_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_15_28_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_15_25">
+      <obj_property name="ElementShortName">input_15_25[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_15_25[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_15_28">
+      <obj_property name="ElementShortName">input_15_28[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_15_28[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_15">
+      <obj_property name="ElementShortName">output_N_15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_15[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_29">
+      <obj_property name="ElementShortName">output_N_29[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_29[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_32">
+      <obj_property name="ElementShortName">output_N_32[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_32[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_31_29_pip0">
+      <obj_property name="ElementShortName">output_31_29_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_31_29_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_31_29">
+      <obj_property name="ElementShortName">input_31_29[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_31_29[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_31">
+      <obj_property name="ElementShortName">output_N_31[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_31[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_34_32_pip0">
+      <obj_property name="ElementShortName">output_34_32_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_34_32_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_34_32">
+      <obj_property name="ElementShortName">input_34_32[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_34_32[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_34">
+      <obj_property name="ElementShortName">output_N_34[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_34[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_18_31_pip0">
+      <obj_property name="ElementShortName">output_18_31_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_18_31_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_18_34_pip0">
+      <obj_property name="ElementShortName">output_18_34_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_18_34_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_18_31">
+      <obj_property name="ElementShortName">input_18_31[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_18_31[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_18_34">
+      <obj_property name="ElementShortName">input_18_34[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_18_34[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_18">
+      <obj_property name="ElementShortName">output_N_18[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_18[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_35">
+      <obj_property name="ElementShortName">output_N_35[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_35[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_38">
+      <obj_property name="ElementShortName">output_N_38[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_38[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_37_35_pip0">
+      <obj_property name="ElementShortName">output_37_35_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_37_35_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_37_35">
+      <obj_property name="ElementShortName">input_37_35[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_37_35[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_37">
+      <obj_property name="ElementShortName">output_N_37[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_37[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_40_38_pip0">
+      <obj_property name="ElementShortName">output_40_38_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_40_38_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_40_38">
+      <obj_property name="ElementShortName">input_40_38[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_40_38[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_40">
+      <obj_property name="ElementShortName">output_N_40[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_40[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_21_37_pip0">
+      <obj_property name="ElementShortName">output_21_37_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_21_37_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_21_40_pip0">
+      <obj_property name="ElementShortName">output_21_40_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_21_40_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_21_37">
+      <obj_property name="ElementShortName">input_21_37[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_21_37[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_21_40">
+      <obj_property name="ElementShortName">input_21_40[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_21_40[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_21">
+      <obj_property name="ElementShortName">output_N_21[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_21[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_41">
+      <obj_property name="ElementShortName">output_N_41[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_41[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_44">
+      <obj_property name="ElementShortName">output_N_44[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_44[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_43_41_pip0">
+      <obj_property name="ElementShortName">output_43_41_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_43_41_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_43_41">
+      <obj_property name="ElementShortName">input_43_41[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_43_41[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_43">
+      <obj_property name="ElementShortName">output_N_43[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_43[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_46_44_pip0">
+      <obj_property name="ElementShortName">output_46_44_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_46_44_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_46_44">
+      <obj_property name="ElementShortName">input_46_44[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_46_44[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_46">
+      <obj_property name="ElementShortName">output_N_46[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_46[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_24_43_pip0">
+      <obj_property name="ElementShortName">output_24_43_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_24_43_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_24_46_pip0">
+      <obj_property name="ElementShortName">output_24_46_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_24_46_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_24_43">
+      <obj_property name="ElementShortName">input_24_43[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_24_43[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_24_46">
+      <obj_property name="ElementShortName">input_24_46[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_24_46[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_24">
+      <obj_property name="ElementShortName">output_N_24[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_24[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_47">
+      <obj_property name="ElementShortName">output_N_47[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_47[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_65">
+      <obj_property name="ElementShortName">output_N_65[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_65[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_64_47_pip0">
+      <obj_property name="ElementShortName">output_64_47_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_64_47_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_64_47">
+      <obj_property name="ElementShortName">input_64_47[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_64_47[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_64">
+      <obj_property name="ElementShortName">output_N_64[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_64[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_68_65_pip0">
+      <obj_property name="ElementShortName">output_68_65_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_68_65_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_68_65">
+      <obj_property name="ElementShortName">input_68_65[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_68_65[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_68">
+      <obj_property name="ElementShortName">output_N_68[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_68[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_27_64_pip0">
+      <obj_property name="ElementShortName">output_27_64_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_27_64_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_27_68_pip0">
+      <obj_property name="ElementShortName">output_27_68_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_27_68_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_27_64">
+      <obj_property name="ElementShortName">input_27_64[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_27_64[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_27_68">
+      <obj_property name="ElementShortName">input_27_68[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_27_68[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_27">
+      <obj_property name="ElementShortName">output_N_27[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_27[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_69">
+      <obj_property name="ElementShortName">output_N_69[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_69[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_71">
+      <obj_property name="ElementShortName">output_N_71[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_71[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_70_69_pip0">
+      <obj_property name="ElementShortName">output_70_69_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_70_69_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_70_69">
+      <obj_property name="ElementShortName">input_70_69[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_70_69[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_70">
+      <obj_property name="ElementShortName">output_N_70[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_70[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_72_71_pip0">
+      <obj_property name="ElementShortName">output_72_71_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_72_71_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_72_71">
+      <obj_property name="ElementShortName">input_72_71[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_72_71[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_72">
+      <obj_property name="ElementShortName">output_N_72[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_72[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_30_70_pip0">
+      <obj_property name="ElementShortName">output_30_70_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_30_70_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_30_72_pip0">
+      <obj_property name="ElementShortName">output_30_72_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_30_72_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_30_70">
+      <obj_property name="ElementShortName">input_30_70[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_30_70[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_30_72">
+      <obj_property name="ElementShortName">input_30_72[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_30_72[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_30">
+      <obj_property name="ElementShortName">output_N_30[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_30[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_73">
+      <obj_property name="ElementShortName">output_N_73[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_73[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_75">
+      <obj_property name="ElementShortName">output_N_75[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_75[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_74_73_pip0">
+      <obj_property name="ElementShortName">output_74_73_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_74_73_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_74_73">
+      <obj_property name="ElementShortName">input_74_73[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_74_73[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_74">
+      <obj_property name="ElementShortName">output_N_74[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_74[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_76_75_pip0">
+      <obj_property name="ElementShortName">output_76_75_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_76_75_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_76_75">
+      <obj_property name="ElementShortName">input_76_75[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_76_75[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_76">
+      <obj_property name="ElementShortName">output_N_76[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_76[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_33_74_pip0">
+      <obj_property name="ElementShortName">output_33_74_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_33_74_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_33_76_pip0">
+      <obj_property name="ElementShortName">output_33_76_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_33_76_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_33_74">
+      <obj_property name="ElementShortName">input_33_74[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_33_74[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_33_76">
+      <obj_property name="ElementShortName">input_33_76[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_33_76[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_33">
+      <obj_property name="ElementShortName">output_N_33[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_33[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_77">
+      <obj_property name="ElementShortName">output_N_77[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_77[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_79">
+      <obj_property name="ElementShortName">output_N_79[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_79[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_78_77_pip0">
+      <obj_property name="ElementShortName">output_78_77_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_78_77_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_78_77">
+      <obj_property name="ElementShortName">input_78_77[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_78_77[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_78">
+      <obj_property name="ElementShortName">output_N_78[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_78[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_80_79_pip0">
+      <obj_property name="ElementShortName">output_80_79_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_80_79_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_80_79">
+      <obj_property name="ElementShortName">input_80_79[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_80_79[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_80">
+      <obj_property name="ElementShortName">output_N_80[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_80[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_36_78_pip0">
+      <obj_property name="ElementShortName">output_36_78_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_36_78_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_36_80_pip0">
+      <obj_property name="ElementShortName">output_36_80_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_36_80_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_36_78">
+      <obj_property name="ElementShortName">input_36_78[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_36_78[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_36_80">
+      <obj_property name="ElementShortName">input_36_80[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_36_80[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_36">
+      <obj_property name="ElementShortName">output_N_36[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_36[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_81">
+      <obj_property name="ElementShortName">output_N_81[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_81[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_83">
+      <obj_property name="ElementShortName">output_N_83[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_83[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_82_81_pip0">
+      <obj_property name="ElementShortName">output_82_81_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_82_81_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_82_81">
+      <obj_property name="ElementShortName">input_82_81[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_82_81[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_82">
+      <obj_property name="ElementShortName">output_N_82[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_82[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_84_83_pip0">
+      <obj_property name="ElementShortName">output_84_83_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_84_83_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_84_83">
+      <obj_property name="ElementShortName">input_84_83[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_84_83[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_84">
+      <obj_property name="ElementShortName">output_N_84[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_84[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_39_82_pip0">
+      <obj_property name="ElementShortName">output_39_82_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_39_82_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_39_84_pip0">
+      <obj_property name="ElementShortName">output_39_84_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_39_84_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_39_82">
+      <obj_property name="ElementShortName">input_39_82[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_39_82[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_39_84">
+      <obj_property name="ElementShortName">input_39_84[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_39_84[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_39">
+      <obj_property name="ElementShortName">output_N_39[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_39[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_85">
+      <obj_property name="ElementShortName">output_N_85[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_85[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_87">
+      <obj_property name="ElementShortName">output_N_87[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_87[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_86_85_pip0">
+      <obj_property name="ElementShortName">output_86_85_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_86_85_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_86_85">
+      <obj_property name="ElementShortName">input_86_85[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_86_85[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_86">
+      <obj_property name="ElementShortName">output_N_86[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_86[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_88_87_pip0">
+      <obj_property name="ElementShortName">output_88_87_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_88_87_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_88_87">
+      <obj_property name="ElementShortName">input_88_87[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_88_87[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_88">
+      <obj_property name="ElementShortName">output_N_88[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_88[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_42_86_pip0">
+      <obj_property name="ElementShortName">output_42_86_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_42_86_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_42_88_pip0">
+      <obj_property name="ElementShortName">output_42_88_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_42_88_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_42_86">
+      <obj_property name="ElementShortName">input_42_86[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_42_86[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_42_88">
+      <obj_property name="ElementShortName">input_42_88[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_42_88[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_42">
+      <obj_property name="ElementShortName">output_N_42[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_42[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_89">
+      <obj_property name="ElementShortName">output_N_89[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_89[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_91">
+      <obj_property name="ElementShortName">output_N_91[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_91[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_90_89_pip0">
+      <obj_property name="ElementShortName">output_90_89_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_90_89_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_90_89">
+      <obj_property name="ElementShortName">input_90_89[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_90_89[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_90">
+      <obj_property name="ElementShortName">output_N_90[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_90[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_92_91_pip0">
+      <obj_property name="ElementShortName">output_92_91_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_92_91_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_92_91">
+      <obj_property name="ElementShortName">input_92_91[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_92_91[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_92">
+      <obj_property name="ElementShortName">output_N_92[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_92[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_45_90_pip0">
+      <obj_property name="ElementShortName">output_45_90_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_45_90_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_45_92_pip0">
+      <obj_property name="ElementShortName">output_45_92_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_45_92_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_45_90">
+      <obj_property name="ElementShortName">input_45_90[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_45_90[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_45_92">
+      <obj_property name="ElementShortName">input_45_92[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_45_92[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_45">
+      <obj_property name="ElementShortName">output_N_45[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_45[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_93">
+      <obj_property name="ElementShortName">output_N_93[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_93[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_95">
+      <obj_property name="ElementShortName">output_N_95[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_95[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_94_93_pip0">
+      <obj_property name="ElementShortName">output_94_93_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_94_93_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_94_93">
+      <obj_property name="ElementShortName">input_94_93[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_94_93[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_94">
+      <obj_property name="ElementShortName">output_N_94[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_94[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_96_95_pip0">
+      <obj_property name="ElementShortName">output_96_95_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_96_95_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_96_95">
+      <obj_property name="ElementShortName">input_96_95[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_96_95[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_96">
+      <obj_property name="ElementShortName">output_N_96[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_96[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_48_94_pip0">
+      <obj_property name="ElementShortName">output_48_94_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_48_94_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_48_96_pip0">
+      <obj_property name="ElementShortName">output_48_96_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_48_96_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_48_94">
+      <obj_property name="ElementShortName">input_48_94[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_48_94[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_48_96">
+      <obj_property name="ElementShortName">input_48_96[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_48_96[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_48">
+      <obj_property name="ElementShortName">output_N_48[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_48[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_49_6_pip0">
+      <obj_property name="ElementShortName">output_49_6_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_49_6_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_49_3_pip0">
+      <obj_property name="ElementShortName">output_49_3_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_49_3_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_49_6">
+      <obj_property name="ElementShortName">input_49_6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_49_6[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_49_3">
+      <obj_property name="ElementShortName">input_49_3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_49_3[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_49">
+      <obj_property name="ElementShortName">output_N_49[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_49[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_50_12_pip0">
+      <obj_property name="ElementShortName">output_50_12_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_50_12_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_50_9_pip0">
+      <obj_property name="ElementShortName">output_50_9_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_50_9_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_50_12">
+      <obj_property name="ElementShortName">input_50_12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_50_12[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_50_9">
+      <obj_property name="ElementShortName">input_50_9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_50_9[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_50">
+      <obj_property name="ElementShortName">output_N_50[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_50[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_51_18_pip0">
+      <obj_property name="ElementShortName">output_51_18_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_51_18_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_51_15_pip0">
+      <obj_property name="ElementShortName">output_51_15_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_51_15_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_51_18">
+      <obj_property name="ElementShortName">input_51_18[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_51_18[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_51_15">
+      <obj_property name="ElementShortName">input_51_15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_51_15[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_51">
+      <obj_property name="ElementShortName">output_N_51[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_51[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_52_24_pip0">
+      <obj_property name="ElementShortName">output_52_24_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_52_24_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_52_21_pip0">
+      <obj_property name="ElementShortName">output_52_21_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_52_21_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_52_24">
+      <obj_property name="ElementShortName">input_52_24[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_52_24[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_52_21">
+      <obj_property name="ElementShortName">input_52_21[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_52_21[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_52">
+      <obj_property name="ElementShortName">output_N_52[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_52[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_53_30_pip0">
+      <obj_property name="ElementShortName">output_53_30_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_53_30_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_53_27_pip0">
+      <obj_property name="ElementShortName">output_53_27_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_53_27_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_53_30">
+      <obj_property name="ElementShortName">input_53_30[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_53_30[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_53_27">
+      <obj_property name="ElementShortName">input_53_27[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_53_27[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_53">
+      <obj_property name="ElementShortName">output_N_53[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_53[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_54_36_pip0">
+      <obj_property name="ElementShortName">output_54_36_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_54_36_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_54_33_pip0">
+      <obj_property name="ElementShortName">output_54_33_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_54_33_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_54_36">
+      <obj_property name="ElementShortName">input_54_36[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_54_36[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_54_33">
+      <obj_property name="ElementShortName">input_54_33[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_54_33[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_54">
+      <obj_property name="ElementShortName">output_N_54[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_54[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_55_42_pip0">
+      <obj_property name="ElementShortName">output_55_42_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_55_42_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_55_39_pip0">
+      <obj_property name="ElementShortName">output_55_39_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_55_39_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_55_42">
+      <obj_property name="ElementShortName">input_55_42[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_55_42[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_55_39">
+      <obj_property name="ElementShortName">input_55_39[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_55_39[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_55">
+      <obj_property name="ElementShortName">output_N_55[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_55[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_56_48_pip0">
+      <obj_property name="ElementShortName">output_56_48_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_56_48_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_56_45_pip0">
+      <obj_property name="ElementShortName">output_56_45_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_56_45_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_56_48">
+      <obj_property name="ElementShortName">input_56_48[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_56_48[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_56_45">
+      <obj_property name="ElementShortName">input_56_45[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_56_45[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_56">
+      <obj_property name="ElementShortName">output_N_56[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_56[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_57_50_pip0">
+      <obj_property name="ElementShortName">output_57_50_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_57_50_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_57_49_pip0">
+      <obj_property name="ElementShortName">output_57_49_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_57_49_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_57_50">
+      <obj_property name="ElementShortName">input_57_50[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_57_50[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_57_49">
+      <obj_property name="ElementShortName">input_57_49[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_57_49[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_57">
+      <obj_property name="ElementShortName">output_N_57[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_57[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_58_52_pip0">
+      <obj_property name="ElementShortName">output_58_52_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_58_52_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_58_51_pip0">
+      <obj_property name="ElementShortName">output_58_51_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_58_51_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_58_52">
+      <obj_property name="ElementShortName">input_58_52[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_58_52[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_58_51">
+      <obj_property name="ElementShortName">input_58_51[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_58_51[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_58">
+      <obj_property name="ElementShortName">output_N_58[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_58[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_59_54_pip0">
+      <obj_property name="ElementShortName">output_59_54_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_59_54_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_59_53_pip0">
+      <obj_property name="ElementShortName">output_59_53_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_59_53_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_59_54">
+      <obj_property name="ElementShortName">input_59_54[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_59_54[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_59_53">
+      <obj_property name="ElementShortName">input_59_53[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_59_53[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_59">
+      <obj_property name="ElementShortName">output_N_59[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_59[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_60_56_pip0">
+      <obj_property name="ElementShortName">output_60_56_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_60_56_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_60_55_pip0">
+      <obj_property name="ElementShortName">output_60_55_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_60_55_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_60_56">
+      <obj_property name="ElementShortName">input_60_56[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_60_56[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_60_55">
+      <obj_property name="ElementShortName">input_60_55[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_60_55[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_60">
+      <obj_property name="ElementShortName">output_N_60[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_60[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_61_58_pip0">
+      <obj_property name="ElementShortName">output_61_58_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_61_58_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_61_57_pip0">
+      <obj_property name="ElementShortName">output_61_57_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_61_57_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_61_58">
+      <obj_property name="ElementShortName">input_61_58[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_61_58[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_61_57">
+      <obj_property name="ElementShortName">input_61_57[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_61_57[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_61">
+      <obj_property name="ElementShortName">output_N_61[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_61[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_62_60_pip0">
+      <obj_property name="ElementShortName">output_62_60_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_62_60_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_62_59_pip0">
+      <obj_property name="ElementShortName">output_62_59_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_62_59_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_62_60">
+      <obj_property name="ElementShortName">input_62_60[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_62_60[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_62_59">
+      <obj_property name="ElementShortName">input_62_59[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_62_59[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_62">
+      <obj_property name="ElementShortName">output_N_62[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_62[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_63_62_pip0">
+      <obj_property name="ElementShortName">output_63_62_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_63_62_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_63_61_pip0">
+      <obj_property name="ElementShortName">output_63_61_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_63_61_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_63_62">
+      <obj_property name="ElementShortName">input_63_62[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_63_62[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_63_61">
+      <obj_property name="ElementShortName">input_63_61[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_63_61[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_63">
+      <obj_property name="ElementShortName">output_N_63[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_63[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_97">
+      <obj_property name="ElementShortName">output_N_97[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_97[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_99">
+      <obj_property name="ElementShortName">output_N_99[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_99[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_98_97_pip0">
+      <obj_property name="ElementShortName">output_98_97_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_98_97_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_98_97">
+      <obj_property name="ElementShortName">input_98_97[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_98_97[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_98">
+      <obj_property name="ElementShortName">output_N_98[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_98[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_100_99_pip0">
+      <obj_property name="ElementShortName">output_100_99_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_100_99_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_100_99">
+      <obj_property name="ElementShortName">input_100_99[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_100_99[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_100">
+      <obj_property name="ElementShortName">output_N_100[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_100[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_66_98_pip0">
+      <obj_property name="ElementShortName">output_66_98_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_66_98_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_66_100_pip0">
+      <obj_property name="ElementShortName">output_66_100_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_66_100_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_66_98">
+      <obj_property name="ElementShortName">input_66_98[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_66_98[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_66_100">
+      <obj_property name="ElementShortName">input_66_100[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_66_100[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_66">
+      <obj_property name="ElementShortName">output_N_66[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_66[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_66_pip0">
+      <obj_property name="ElementShortName">output_67_66_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_66_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_66_pip1">
+      <obj_property name="ElementShortName">output_67_66_pip1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_66_pip1[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_66_pip2">
+      <obj_property name="ElementShortName">output_67_66_pip2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_66_pip2[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_66_pip3">
+      <obj_property name="ElementShortName">output_67_66_pip3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_66_pip3[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_66_pip4">
+      <obj_property name="ElementShortName">output_67_66_pip4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_66_pip4[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_67_63_pip0">
+      <obj_property name="ElementShortName">output_67_63_pip0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_67_63_pip0[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_67_66">
+      <obj_property name="ElementShortName">input_67_66[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_67_66[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/input_67_63">
+      <obj_property name="ElementShortName">input_67_63[15:0]</obj_property>
+      <obj_property name="ObjectShortName">input_67_63[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/spn_tb/spn_dut/output_N_67">
+      <obj_property name="ElementShortName">output_N_67[15:0]</obj_property>
+      <obj_property name="ObjectShortName">output_N_67[15:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_0">
+      <obj_property name="ElementShortName">valid_0</obj_property>
+      <obj_property name="ObjectShortName">valid_0</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_1">
+      <obj_property name="ElementShortName">valid_1</obj_property>
+      <obj_property name="ObjectShortName">valid_1</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_2">
+      <obj_property name="ElementShortName">valid_2</obj_property>
+      <obj_property name="ObjectShortName">valid_2</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_3">
+      <obj_property name="ElementShortName">valid_3</obj_property>
+      <obj_property name="ObjectShortName">valid_3</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_4">
+      <obj_property name="ElementShortName">valid_4</obj_property>
+      <obj_property name="ObjectShortName">valid_4</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_5">
+      <obj_property name="ElementShortName">valid_5</obj_property>
+      <obj_property name="ObjectShortName">valid_5</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_6">
+      <obj_property name="ElementShortName">valid_6</obj_property>
+      <obj_property name="ObjectShortName">valid_6</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/spn_tb/spn_dut/valid_7">
+      <obj_property name="ElementShortName">valid_7</obj_property>
+      <obj_property name="ObjectShortName">valid_7</obj_property>
+   </wvobject>
+</wave_config>

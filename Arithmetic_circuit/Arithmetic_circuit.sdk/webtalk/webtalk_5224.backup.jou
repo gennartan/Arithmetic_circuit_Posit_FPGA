@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# 
+# Start of session at: Sat Apr 18 20:26:56 2020
+# Process ID: 5224
+# Current directory: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sdk/webtalk/webtalk.log
+# Journal file: /home/gennart/Arithmetic_circuit/Arithmetic_circuit.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

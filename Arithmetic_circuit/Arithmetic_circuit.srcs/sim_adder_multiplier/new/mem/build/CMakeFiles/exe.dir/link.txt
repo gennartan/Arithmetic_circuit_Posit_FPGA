@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/exe.dir/src/main.cpp.o  -o exe  bfp/libPosit.a bfp/libPack.a bfp/libOP1.a bfp/libOP2.a bfp/libUtil.a 

@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="adder_multiplier_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="adder_multiplier_tb" />
+            <top_module name="glbl" />
+            <top_module name="posit" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="21000001fs"></ZoomEndTime>
+      <Cursor1Time time="10608000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="350"></NameColumnWidth>
+      <ValueColumnWidth column_width="92"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="78" />
+   <wvobject type="array" fp_name="/adder_multiplier_tb/op_a">
+      <obj_property name="ElementShortName">op_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/op_b">
+      <obj_property name="ElementShortName">op_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/add_res">
+      <obj_property name="ElementShortName">add_res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_res[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/mul_res">
+      <obj_property name="ElementShortName">mul_res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_res[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/add_res_expected">
+      <obj_property name="ElementShortName">add_res_expected[15:0]</obj_property>
+      <obj_property name="ObjectShortName">add_res_expected[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/mul_res_expected">
+      <obj_property name="ElementShortName">mul_res_expected[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_res_expected[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/None">
+      <obj_property name="ElementShortName">None[15:0]</obj_property>
+      <obj_property name="ObjectShortName">None[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/myMem">
+      <obj_property name="ElementShortName">myMem[999:0][63:0]</obj_property>
+      <obj_property name="ObjectShortName">myMem[999:0][63:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/i">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/add_success">
+      <obj_property name="ElementShortName">add_success[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_success[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/add_failure">
+      <obj_property name="ElementShortName">add_failure[31:0]</obj_property>
+      <obj_property name="ObjectShortName">add_failure[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/mul_success">
+      <obj_property name="ElementShortName">mul_success[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_success[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/mul_failure">
+      <obj_property name="ElementShortName">mul_failure[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mul_failure[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/period">
+      <obj_property name="ElementShortName">period[31:0]</obj_property>
+      <obj_property name="ObjectShortName">period[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/op_a">
+      <obj_property name="ElementShortName">op_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/op_b">
+      <obj_property name="ElementShortName">op_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/op_res">
+      <obj_property name="ElementShortName">op_res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_res[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/add_posit_A">
+      <obj_property name="ElementShortName">add_posit_A</obj_property>
+      <obj_property name="ObjectShortName">add_posit_A</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/add_posit_B">
+      <obj_property name="ElementShortName">add_posit_B</obj_property>
+      <obj_property name="ObjectShortName">add_posit_B</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/add_posit_res">
+      <obj_property name="ElementShortName">add_posit_res</obj_property>
+      <obj_property name="ObjectShortName">add_posit_res</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_A">
+      <obj_property name="ElementShortName">rex_exp_A[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_A[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_B">
+      <obj_property name="ElementShortName">rex_exp_B[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_B[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_diff">
+      <obj_property name="ElementShortName">rex_exp_diff[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_diff[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_diff_pos">
+      <obj_property name="ElementShortName">rex_exp_diff_pos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_diff_pos[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_diff_isNeg">
+      <obj_property name="ElementShortName">rex_exp_diff_isNeg</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_diff_isNeg</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_sig_H">
+      <obj_property name="ElementShortName">rex_sig_H[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_sig_H[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_sig_L">
+      <obj_property name="ElementShortName">rex_sig_L[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_sig_L[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_sig_A">
+      <obj_property name="ElementShortName">rex_sig_A[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_sig_A[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_sig_B">
+      <obj_property name="ElementShortName">rex_sig_B[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_sig_B[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_H">
+      <obj_property name="ElementShortName">rex_exp_H[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_H[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/rex_exp_L">
+      <obj_property name="ElementShortName">rex_exp_L[9:0]</obj_property>
+      <obj_property name="ObjectShortName">rex_exp_L[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sht_exp_diff_pos">
+      <obj_property name="ElementShortName">sht_exp_diff_pos[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_exp_diff_pos[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sht_sig_L">
+      <obj_property name="ElementShortName">sht_sig_L[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_sig_L[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sht_sig_L_shift">
+      <obj_property name="ElementShortName">sht_sig_L_shift[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_sig_L_shift[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_sig_H">
+      <obj_property name="ElementShortName">sum_sig_H[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_sig_H[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_sig_L_shift">
+      <obj_property name="ElementShortName">sum_sig_L_shift[10:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_sig_L_shift[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_sum">
+      <obj_property name="ElementShortName">sum_sum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_sum[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_sum_shift">
+      <obj_property name="ElementShortName">sum_sum_shift[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_sum_shift[11:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_exp">
+      <obj_property name="ElementShortName">sum_exp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_exp[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/sum_exp_sum">
+      <obj_property name="ElementShortName">sum_exp_sum[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sum_exp_sum[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_adder/out_is_zero">
+      <obj_property name="ElementShortName">out_is_zero</obj_property>
+      <obj_property name="ObjectShortName">out_is_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_adder/out_is_NAR">
+      <obj_property name="ElementShortName">out_is_NAR</obj_property>
+      <obj_property name="ObjectShortName">out_is_NAR</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/out_twos_exp">
+      <obj_property name="ElementShortName">out_twos_exp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">out_twos_exp[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/out_sig">
+      <obj_property name="ElementShortName">out_sig[10:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sig[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/SIZE">
+      <obj_property name="ElementShortName">SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_adder/EXP_SIZE">
+      <obj_property name="ElementShortName">EXP_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXP_SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/op_a">
+      <obj_property name="ElementShortName">op_a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_a[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/op_b">
+      <obj_property name="ElementShortName">op_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/op_res">
+      <obj_property name="ElementShortName">op_res[15:0]</obj_property>
+      <obj_property name="ObjectShortName">op_res[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/mul_posit_a">
+      <obj_property name="ElementShortName">mul_posit_a</obj_property>
+      <obj_property name="ObjectShortName">mul_posit_a</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/mul_posit_b">
+      <obj_property name="ElementShortName">mul_posit_b</obj_property>
+      <obj_property name="ObjectShortName">mul_posit_b</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/mul_posit_res">
+      <obj_property name="ElementShortName">mul_posit_res</obj_property>
+      <obj_property name="ObjectShortName">mul_posit_res</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_exp_A">
+      <obj_property name="ElementShortName">prod_exp_A[8:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_exp_A[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_exp_B">
+      <obj_property name="ElementShortName">prod_exp_B[8:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_exp_B[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_exp_res">
+      <obj_property name="ElementShortName">prod_exp_res[9:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_exp_res[9:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_sig_A">
+      <obj_property name="ElementShortName">prod_sig_A[10:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_sig_A[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_sig_B">
+      <obj_property name="ElementShortName">prod_sig_B[10:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_sig_B[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/prod_sig_res">
+      <obj_property name="ElementShortName">prod_sig_res[21:0]</obj_property>
+      <obj_property name="ObjectShortName">prod_sig_res[21:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/sht_exp_res">
+      <obj_property name="ElementShortName">sht_exp_res[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_exp_res[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/sht_out_exp_res">
+      <obj_property name="ElementShortName">sht_out_exp_res[8:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_out_exp_res[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/sht_sig_res">
+      <obj_property name="ElementShortName">sht_sig_res[21:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_sig_res[21:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/sht_out_sig_res">
+      <obj_property name="ElementShortName">sht_out_sig_res[21:0]</obj_property>
+      <obj_property name="ObjectShortName">sht_out_sig_res[21:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_multiplier/sht_shift">
+      <obj_property name="ElementShortName">sht_shift</obj_property>
+      <obj_property name="ObjectShortName">sht_shift</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/out_exp">
+      <obj_property name="ElementShortName">out_exp[8:0]</obj_property>
+      <obj_property name="ObjectShortName">out_exp[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/out_sig">
+      <obj_property name="ElementShortName">out_sig[10:0]</obj_property>
+      <obj_property name="ObjectShortName">out_sig[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_multiplier/out_is_zero">
+      <obj_property name="ElementShortName">out_is_zero</obj_property>
+      <obj_property name="ObjectShortName">out_is_zero</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_multiplier/out_is_NAR">
+      <obj_property name="ElementShortName">out_is_NAR</obj_property>
+      <obj_property name="ObjectShortName">out_is_NAR</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_sig_res">
+      <obj_property name="ElementShortName">rnd_sig_res[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_sig_res[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_out_sig_res">
+      <obj_property name="ElementShortName">rnd_out_sig_res[10:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_out_sig_res[10:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_exp_res">
+      <obj_property name="ElementShortName">rnd_exp_res[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_exp_res[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_out_exp_res">
+      <obj_property name="ElementShortName">rnd_out_exp_res[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_out_exp_res[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_exp_A">
+      <obj_property name="ElementShortName">rnd_exp_A[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_exp_A[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_exp_B">
+      <obj_property name="ElementShortName">rnd_exp_B[8:0]</obj_property>
+      <obj_property name="ObjectShortName">rnd_exp_B[8:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_min_val">
+      <obj_property name="ElementShortName">rnd_min_val</obj_property>
+      <obj_property name="ObjectShortName">rnd_min_val</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/adder_multiplier_tb/dut_multiplier/rnd_max_val">
+      <obj_property name="ElementShortName">rnd_max_val</obj_property>
+      <obj_property name="ObjectShortName">rnd_max_val</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/SIZE">
+      <obj_property name="ElementShortName">SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">SIZE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/adder_multiplier_tb/dut_multiplier/EXP_SIZE">
+      <obj_property name="ElementShortName">EXP_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXP_SIZE[31:0]</obj_property>
+   </wvobject>
+</wave_config>

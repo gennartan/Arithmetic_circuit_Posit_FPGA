@@ -13,7 +13,7 @@
  *   uartlite    Configurable only in HW design
  *   ps7_uart    115200 (configured by bootrom/bsp)
  */
-#define WAIT_US 1
+#define WAIT_US 0
 
 
 #include <stdio.h>
@@ -22,6 +22,7 @@
 #include "sleep.h"
 #include <stdlib.h>
 #include "data.h"
+#include "time.h"
 
 int read_fpga();
 int read_and_write_FPGA();
@@ -36,8 +37,20 @@ int main(){
 		usleep(50000);
 	}
 
+	xil_printf("\n\rWait time us==%d\n\r", WAIT_US);
+
+	struct timeval tv;
+	unsigned long start_time = 1000000 * tv.tv_sec + tv.tv_usec;
+
+	xil_printf("start_time : %ld\n\r", start_time);
 	xil_printf("START\n\r");
     read_and_write_FPGA();
+
+    unsigned long end_time = 1000000 * tv.tv_sec + tv.tv_usec;
+    unsigned long total_time = end_time - start_time;
+
+    xil_printf("total time : %ld us\n\r", total_time);
+    xil_printf("frequency = %ld MHz\n\r", (double) 50000 / (double) total_time);
     cleanup_platform();
     return 0;
 }
@@ -134,10 +147,10 @@ int read_and_write_FPGA(){
 		}
     }
 
-    while(1){
-    	read_fpga();
-    	usleep(WAIT_US);
-    }
+//    while(1){
+//    	read_fpga();
+//    	usleep(WAIT_US);
+//    }
 
     return 0;
 }
